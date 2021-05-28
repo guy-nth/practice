@@ -32,6 +32,7 @@
                 →集合の内、どれかに例外が発生するとselect関数は終了する
             - int nfds: 上記3つのFDの集合の内、FDの最大値+1
             - struct timeval *timeout: タイムアウト値(秒 + マイクロ秒) select関数が終了するまでの時間
+        参考 → http://linuxjm.osdn.jp/html/LDP_man-pages/man2/select.2.html
 */
 #include <stdio.h>
 #include <stdlib.h>
